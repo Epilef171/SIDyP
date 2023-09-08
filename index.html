@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sidyp</title>
+    <link rel="stylesheet" type="text/css" href="CSS/estilos.css">
+    <link rel="icon" href="img/favicon.png">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+</head>
+
+<body>
+    <!-- Header -->
+    <div class="bar-header">
+        <section id="contact">
+            <div class="contact container">
+                <div class="lema">
+                    <h4>Trabajamos para superar sus espectativas</h4>
+                </div>
+                <div class="social">
+                    <a href="https://www.instagram.com/sidyp.sas/?hl=es-la" target="_blank">
+                        <img src="https://img.icons8.com/sf-regular-filled/50/000000/instagram-new.png" />
+                        <img src="https://img.icons8.com/fluency/50/000000/instagram-new.png" />
+                        Instagram: @sidyp.sas
+                    </a>
+                </div>
+                <div class="social">
+                    <a href="https://wa.me/3102018552?Buenas%20me%20interesa%20lo%20que%20ofrecen">
+                        <a href="https://wa.me/3102018552?Buenas%20me%20interesa%20lo%20que%20ofrecen" target="_blank">
+                            <img src="https://img.icons8.com/ios-filled/50/000000/whatsapp--v1.png" />
+                            <img src="https://img.icons8.com/color/50/000000/whatsapp--v1.png" />
+                            3102018552
+                        </a>
+                    </a>
+                </div>
+            </div>
+        </section>
+        <section id="header">
+            <div class="header container">
+                <div class="nav-bar">
+                    <div class="brand">
+                        <a href="./index.html" target="_self"><img src="img/Sidyp logo vector blanco.png" alt=""></a>
+                    </div>
+                    <div class="nav-list">
+                        <div class="hamburger">
+                            <div class="bar"></div>
+                        </div>
+                        <ul>
+                            <li><a href="#portada" data-after="Inicio">Inicio</a></li>
+                            <li><a href="#servicios" data-after="Servicios ">Servicios</a></li>
+                            <li><a href="#footer" data-after="Contacto">Contacto</a></li>
+                            <li><a href="./login.html" target="_self" data-after="Iniciar Sesión">Iniciar Sesión</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+    <!-- fin Header -->
+    <section id="portada">
+        <div class="portada container">
+            <div class="title-h1">
+                <h1>Sistemas<span></span></h1>
+                <h1>Integrales De<span></span></h1>
+                <h1>Diseño Y Publicidad<span></span></h1>
+            </div>
+            <div class="slider">
+                <div class="slide">
+                    <img src="img/Foto_deSIDyP1.jpg" alt="Imagen 1">
+
+                </div>
+                <div class="slide">
+                    <img src="img/Foto_deSIDyP17.jpeg" alt="Imagen 2">
+                </div>
+                <div class="slide">
+                    <img src="img/Foto_deSIDyP12.jpeg" alt="Imagen 3">
+                </div>
+                <div class="slide">
+                    <img src="img/Foto_deSIDyP15.jpeg" alt="Imagen 4">
+                </div>
+                <div class="slide">
+                    <img src="img/Foto_deSIDyP26.jpeg" alt="Imagen 5">
+                </div>
+            </div>
+            <!-- Controls -->
+            <div class="slider-controls">
+                <button class="slider-control active" onclick="changeSlide(0)"></button>
+                <button class="slider-control" onclick="changeSlide(1)"></button>
+                <button class="slider-control" onclick="changeSlide(2)"></button>
+                <button class="slider-control" onclick="changeSlide(3)"></button>
+                <button class="slider-control" onclick="changeSlide(4)"></button>
+            </div>
+        </div>
+    </section>
+    <section id="servicios">
+        <div class="servicios container">
+            <div class="servicios-top text__information-cover">
+                <h1 class="seccion-title animated-text diagonal">Hacemos realidad <span>tu</span></h1>
+                <h1 class="seccion-title animated-text diagonal">proyecto</h1>
+                <p class="animated-text diagonal">En Sidyp ofrecemos soluciones de diseño y restauración para espacios
+                    comerciales, con el compromiso humano, la eficiencia y la agilidad que nos caracteriza. Hacemos
+                    sentir especiales a nuestros clientes, superando sus expectativas.</p>
+            </div>
+            <div id="tarjetas">
+                <div class="tarjeta-contenido">
+                    <div class="tarjeta jello-horizontal" data-aos="fade-down-right" data-aos-duration="2000">
+                        <img class="simbolo" src="img/bombilla.png" alt="">
+                        <h3>Tu idea</h3>
+                        <div class="contenido">
+                            <p>Hacemos realidad tu idea o proyecto materializando con el mejor talento humano y con la
+                                mejor calidad</p>
+                        </div>
+                    </div>
+                    <div class="tarjeta jello-horizontal" data-aos="fade-down-right" data-aos-duration="2000">
+                        <img class="simbolo" src="img/planificacion.png" alt="">
+                        <h3>Planificacion</h3>
+                        <div class="contenido">
+                            <p>Lorem 2 ipsum dolor sit amet consectetur adipisicing elit.</p>
+                        </div>
+                    </div>
+                    <div class="tarjeta jello-horizontal" data-aos="fade-down-right" data-aos-duration="2000">
+                        <img class="simbolo" src="img/lapiz.png" alt="">
+                        <h3>Diseño</h3>
+                        <div class="contenido">
+                            <p>Lorem 3 ipsum dolor sit amet consectetur adipisicing elit.</p>
+                        </div>
+                    </div>
+                    <div class="tarjeta jello-horizontal" data-aos="fade-down-right" data-aos-duration="2000">
+                        <img class="simbolo" src="img/rotacion-de-engranajes.png" alt="">
+                        <h3>Produccion</h3>
+                        <div class="contenido">
+                            <p>Lorem 4 ipsum dolor sit amet consectetur adipisicing elit.</p>
+                        </div>
+                    </div>
+                    <div class="tarjeta jello-horizontal" data-aos="fade-down-right" data-aos-duration="2000">
+                        <img class="simbolo" src="img/Montaje.png" alt="">
+                        <h3>Montaje</h3>
+                        <div class="contenido">
+                            <p>Lorem 5 ipsum dolor sit amet consectetur adipisicing elit.</p>
+                        </div>
+                    </div>
+                    <div class="tarjeta jello-horizontal" data-aos="fade-down-right" data-aos-duration="2000">
+                        <img class="simbolo" src="img/proyecto.png" alt="">
+                        <h3>Finalizacion</h3>
+                        <div class="contenido">
+                            <p>Lorem 6 ipsum dolor sit amet consectetur adipisicing elit.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <h1 class="seccion-title animated-text diagonal">Serv<span>i</span>cios</h1>
+            <div class="servicios-bottom">
+                <a href="pintura.html" target="_self" data-aos="fade-right">
+                    <div class="servicios-item">
+                        <div class="icon"><img src="https://img.icons8.com/ios/50/2EA624/paint-sprayer.png" />
+                        </div>
+                        <h2>Pintura</h2>
+                        <p>contamos con un servicio de pintura de alta calidad con los mejores acabados y larga
+                            durabilidad</p>
+                    </div>
+                </a>
+            </div>
+            <div class="servicios-bottom">
+                <a href="diseñosE.html" target="_self" data-aos="fade-left">
+                    <div class="servicios-item">
+                        <div class="icon"><img src="https://img.icons8.com/ios/50/2EA624/full-tool-storage-box-.png" />
+                        </div>
+                        <h2>Diseños especiales</h2>
+                        <p>Nustro enfoque basado en soluciones, nos permite diseñar y fabricar todo tipo de
+                            moviliario solicitado por nuestros clientes</p>
+                    </div>
+                </a>
+            </div>
+            <div class="servicios-bottom">
+                <a href="sistemasIluminacion.html" target="_self" data-aos="fade-right">
+                    <div class="servicios-item">
+                        <div class="icon"><img src="https://img.icons8.com/ios/50/2EA624/ceiling-light.png" />
+                        </div>
+                        <h2>Sistemas de iluminacion</h2>
+                        <p>La industria de la iluminacion esta en constante evolucion, por ello refinamos
+                            nustro desarrollo y produccion </p>
+                    </div>
+                </a>
+            </div>
+            <div class="servicios-bottom">
+                <a href="estanterias.html" target="_self" data-aos="fade-left">
+                    <div class="servicios-item">
+                        <div class="icon"><img
+                                src="https://img.icons8.com/external-icongeek26-outline-icongeek26/64/2EA624/external-shelves-furniture-icongeek26-outline-icongeek26.png" />
+                        </div>
+                        <h2>Estanterias</h2>
+                        <p>Restauracion, adecuacion e instalacion de estanterias, trabajamos en todos
+                            los materiales pensando en el medio ambiente y reduccion de costos respetando
+                            la estetica de la empresa</p>
+                    </div>
+                </a>
+            </div>
+
+        </div>
+    </section>
+
+    <section id="footer">
+        <div class="footer container">
+            <div class="brandfooter" data-aos="fade-down"><img src="img/Sidyp logo vector blanco.png" alt=""></div>
+            <h2 data-aos="zoom-out-right">Trabajamos para superar sus espectativas</h2>
+            <div class="social-icon">
+                <div class="social" data-aos="zoom-in" data-aos-duration="1500">
+                    <a href="https://www.facebook.com/pages/category/Product-Service/sidypsas-102899964526538/"
+                        target="_blank">
+                        <img src="https://img.icons8.com/ios-filled/50/000000/facebook-new.png" />
+                        <img src="https://img.icons8.com/color/50/000000/facebook-new.png" />
+                    </a>
+                </div>
+                <div class="social" data-aos="zoom-in" data-aos-duration="1500">
+                    <a href="https://www.instagram.com/sidyp.sas/?hl=es-la" target="_blank">
+                        <img src="https://img.icons8.com/sf-regular-filled/50/000000/instagram-new.png" />
+                        <img src="https://img.icons8.com/fluency/50/000000/instagram-new.png" />
+                    </a>
+                </div>
+                <div class="social" data-aos="zoom-in" data-aos-duration="1500">
+                    <a href="https://wa.me/3102018552?Buenas%20me%20interesa%20lo%20que%20ofrecen" target="_blank">
+                        <img src="https://img.icons8.com/ios-filled/50/000000/whatsapp--v1.png" />
+                        <img src="https://img.icons8.com/color/50/000000/whatsapp--v1.png" />
+                    </a>
+                </div>
+                <div class="social" data-aos="zoom-in" data-aos-duration="1500">
+                    <a href="https://mail.google.com/mail/u/0/?ogbl#inbox?compose=CllgCJfnbjFFkSxfclfgLvGPKwSjftwXGdDrtTJXVQQsVMlsWnFTtNmtmHDMGLJtGFHnzCwKhJq"
+                        target="_blank">
+                        <img src="https://img.icons8.com/ios-filled/50/000000/gmail-new.png" />
+                        <img src="https://img.icons8.com/color-glass/50/000000/gmail.png" />
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <script src="JS/app.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+</body>
+
+</html>

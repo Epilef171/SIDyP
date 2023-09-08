@@ -1,0 +1,122 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sistemas de iluminacion</title>
+    <link rel="stylesheet" href="CSS/estilosSistemasIluminacion.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&display=swap" rel="stylesheet">
+    <link rel="icon" href="img/favicon.png">
+
+</head>
+<body>
+    <section id="header">
+        <div class="header container">
+            <div class="nav-bar">
+                <div class="brand">
+                    <a href="./index.html" target="_self"><h1>SID<span>Y</span>P</h1></a>
+                </div>
+                <div class="nav-list">
+                    <div class="hamburger"><div class="bar"></div></div>
+                    <ul>
+                        <li><a href="#portada" data-after="Inicio">Inicio</a></li>
+                        <li><a href="#galeria" data-after="Galeria">Galeria</a></li>
+                        <li><a href="#footer" data-after="Contacto">Contacto</a></li>
+                        <li><a href="./login.html" target="_self" data-after="Iniciar Sesión">Iniciar Sesión</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="portada">
+        <div class="portada container">
+            <div>
+                <h1>Sistemas<span></span></h1>
+                <h1>De Iluminacion<span></span></h1>
+            </div>
+        </div>
+    </section>
+
+    <section id="descripcion">
+        <div class="descripcion-top">
+            <h1 class="descripcion-title">Sistemas de iluminacion</h1>
+            <p id="galeria">
+                La industria de la iluminación está en constante 
+                evolución, por ello, refinamos nuestro desarrollo 
+                y producción. Diseñamos sistemas con los estándares 
+                y materiales de alta calidad.
+            </p><br><br>
+            <h1 class="descripcion-title">Galeria de imágenes</h1>
+        </div>
+    </section>
+    <span class="linea"></span>
+    <section class="galeria">
+        <a href="#image1">
+            <img class="ga-im" src="img/Foto_deSIDyP2.jpg" alt="">
+        </a>
+        <a href="#image2">
+            <img class="ga-im" src="img/Foto_deSIDyP4.jpg" alt="">
+        </a>
+        <a href="#image3">
+            <img class="ga-im" src="img/Foto_deSIDyP5.jpg" alt="">
+        </a>
+        <a href="#image4">
+            <img class="ga-im" src="img/Foto_deSIDyP16.jpeg" alt="">
+        </a>
+        <a href="#image5">
+            <img class="ga-im" src="img/Foto_deSIDyP17.jpeg" alt="">
+        </a>
+        <a href="#image6">
+            <img class="ga-im" src="img/Foto_deSIDyP37.jpeg" alt="">
+        </a>
+    </section>
+
+    <!-- Seccion light-box -->
+
+    <article class="light-box" id="image1">
+        <a href="#image6"class="flecha"><i class="fa-solid fa-arrow-left"></i></a>
+        <img src="img/Foto_deSIDyP2.jpg" alt="">
+        <a href="#image2"class="flecha"><i class="fa-solid fa-arrow-right"></i></a>
+        <a href="#galeria"class="cerrar">X</a>
+    </article>
+    <article class="light-box" id="image2">
+        <a href="#image1" class="flecha"><i class="fas fa-arrow-left"></i></a>
+        <img src="img/Foto_deSIDyP4.jpg" alt="">
+        <a href="#image3" class="flecha"><i class="fas fa-arrow-right"></i></a>
+        <a href="#galeria" class="cerrar">X</a>
+    </article>
+    <article class="light-box" id="image3">
+        <a href="#image2" class="flecha"><i class="fas fa-arrow-left"></i></a>
+        <img src="img/Foto_deSIDyP5.jpg" alt="">
+        <a href="#image4" class="flecha"><i class="fas fa-arrow-right"></i></a>
+        <a href="#galeria" class="cerrar">X</a>
+    </article>
+    <article class="light-box" id="image4">
+        <a href="#image3" class="flecha"><i class="fas fa-arrow-left"></i></a>
+        <img src="img/Foto_deSIDyP16.jpeg" alt="">
+        <a href="#image5" class="flecha"><i class="fas fa-arrow-right"></i></a>
+        <a href="#galeria" class="cerrar">X</a>
+    </article>
+    <article class="light-box" id="image5">
+        <a href="#image4" class="flecha"><i class="fas fa-arrow-left"></i></a>
+        <img src="img/Foto_deSIDyP17.jpeg" alt="">
+        <a href="#image6" class="flecha"><i class="fas fa-arrow-right"></i></a>
+        <a href="#galeria" class="cerrar">X</a>
+    </article>
+    <article class="light-box" id="image6">
+        <a href="#image5" class="flecha"><i class="fas fa-arrow-left"></i></a>
+        <img src="img/Foto_deSIDyP37.jpeg" alt="">
+        <a href="#image1" class="flecha"><i class="fas fa-arrow-right"></i></a>
+        <a href="#galeria" class="cerrar">X</a>
+    </article>
+
+    <script src="https://kit.fontawesome.com/63e8231978.js" crossorigin="anonymous"></script>
+    <script src="JS/app.js"></script>
+</body>
+
+</html>
